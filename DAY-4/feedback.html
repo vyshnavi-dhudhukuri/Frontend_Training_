@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <style>
+        body{
+            background-color: rgb(154, 165, 165);
+            height:1000px;
+            font-family:Arial;
+        }
+        .form{
+            width:500px;
+            background-color: rgb(255, 255, 255);
+            margin:auto;
+            margin-top:100px;
+            padding-left:100px;
+            border:1px solid black;
+            border-radius:20px;
+        }
+        h1{
+            color:rgb(50, 37, 147);
+        }
+
+    </style>
+</head>
+
+<body>
+
+<form>
+    <div class="form">
+     <h1>Feedback!</h1>
+    <div class="pdetails">
+    <label for="name">Enter Your Name</label><br>
+    <input type="text" id="name" placeholder="Enter the name"><br>
+
+    <label for="number">Mobile Number</label><br>
+    <input type="number" id="number" placeholder="Contact Number"><br>
+</div>
+
+<div class="feedback">
+    <label>How would you rate the quality of the food?</label><br>
+    1 <input type="radio" name="food" value="1">
+    2 <input type="radio" name="food" value="2">
+    3 <input type="radio" name="food" value="3">
+    4 <input type="radio" name="food" value="4">
+    5 <input type="radio" name="food" value="5"><br><br>
+
+    <label>How satisfied were you with our customer service?</label><br>
+    1 <input type="radio" name="service" value="1">
+    2 <input type="radio" name="service" value="2">
+    3 <input type="radio" name="service" value="3">
+    4 <input type="radio" name="service" value="4">
+    5 <input type="radio" name="service" value="5"><br><br>
+
+    <label>How would you rate the cleanliness and ambiance of the restaurant?</label><br>
+    1 <input type="radio" name="service" value="1">
+    2 <input type="radio" name="service" value="2">
+    3 <input type="radio" name="service" value="3">
+    4 <input type="radio" name="service" value="4">
+    5 <input type="radio" name="service" value="5"><br><br>
+
+    <label>Would you recommend our restaurant to your friends and family?</label><br>
+    <input type="checkbox" id="text">Yes</input><br>
+    <input type="checkbox" id="text">No</input><br>
+    <input type="checkbox" id="text">Maybe</input><br><br>
+
+
+    <label>Do you have any suggestions or comments to help us improve?</label><br>
+    <label for="feedback">Suggestions:</label><br><br>
+    <textarea id="feedback" rows="5" cols="40" placeholder="Enter your feedback here..."></textarea><br>
+    <button type="submit">Submit Feedback</button><br>
+
+</div>
+
+</div>
+</form>
+
+</body>
+</html>
