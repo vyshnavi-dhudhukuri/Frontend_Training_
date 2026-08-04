@@ -1,0 +1,2 @@
+let num = -1;
+num > 0 ? console.log("Positive number") : console.log("Negative number");
