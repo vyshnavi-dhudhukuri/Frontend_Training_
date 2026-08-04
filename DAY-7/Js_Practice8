@@ -1,0 +1,49 @@
+/*
+//OBJECT DESTRUCTING
+//Basic Object Destructing
+const employee={id:101,name:'Alice',department:'IT'};
+const {id,name,department} = employee;
+console.log(id);
+console.log(name);
+console.log(department);
+
+//Rename Variables
+const student = {name:'David',age:20};
+const {name:studentName,age:studentAge} = student;
+console.log(studentName); console.log(studentAge);
+
+//Default Values
+const user={name:'Rahul'};
+const{name,city='chennai'} = user;
+console.log(name);
+console.log(city);
+
+//Nested Object Destructing
+const employee = {name:'John',adress:{city:'Bangalore',state:'Karnataka'}};
+const{name,adress:{city,state}} = employee;
+console.log(city);
+console.log(state);
+
+
+
+//ARRAY Destructing
+const colors = ["Red","Green","Blue"];
+const[first,second,third] = colors;
+console.log(first);
+console.log(second);
+console.log(third);
+
+*/
+//Skip Values
+const numbers = [10,20,30,40];
+const[first,,third] = numbers;
+console.log(first);
+console.log(third);
+/*
+//Default Values
+const numbers = [100];
+const[a,b = 200] = numbers;
+console.log(a);
+console.log(b);
+*/
+
