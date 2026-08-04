@@ -1,2 +1,2 @@
 # Frontend_Training_
-I am posting everything i learn in the react training conducted in our college
+Completed hands-on training to learn foundational skills in building responsive and interactive web pages.HTML: Learned how to structure web pages and handle user input through forms.CSS: Mastered styling, layouts, and responsive design techniques.Bootstrap: Learned to use pre-built components and grid systems for faster, mobile-friendly styling.JavaScript: Studied core logic, programming fundamentals, and how to make web pages dynamic and interactive.
