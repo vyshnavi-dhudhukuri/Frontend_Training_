@@ -1,0 +1,7 @@
+let num = 986;
+if(num % 10 === 4){
+  console.log("yes");
+}
+else{
+    console.log("no");
+}
