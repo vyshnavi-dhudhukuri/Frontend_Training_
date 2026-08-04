@@ -1,0 +1,3 @@
+let input =["vysh" , "gowr","rishi"];
+let res = input.map(name => name.toUpperCase());
+console.log(res);
