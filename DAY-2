@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Login Page</title>
+     <style>
+        body{
+            font-family:arial;
+            display:flex;
+            align-items: center;
+            justify-content:center;
+            height:100vh;
+            margin:0;
+            background-color: #f2f2f2;
+        }
+        .Login{ 
+            width: 300px;
+            padding: 20px;
+            border:2px solid rgb(228, 220, 220);
+            border-radius: 10px;
+        }
+        input{
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button{
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(58, 58, 236);
+        }
+        h1{
+            margin-left:100px;
+            color:blue;
+        }
+     </style>
+    </head>
+    <body>
+        <form>
+            <div class="Login">
+        <h1>
+            Login
+        </h1>
+        <label for="text">Enter the username</label>*<br>
+        <input type="text" id="text" placeholder="Enter your Username"><br>
+        <label for="text">Enter the Password</label><br>
+        <input type="text" id="password" placeholder="Enter the Password"><br><br>
+        <button>Submit</button>
+        <p>Don't Have an Account &#183; <a href="#">Register Now</a></p>
+        
+     </div>
+        </form>
+    </body>
+</html>
