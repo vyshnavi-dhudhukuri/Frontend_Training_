@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Student Grade Calculator</title>
+        <style>
+            body{
+                background-color:rgb(45, 45, 45);
+                font-family:Arial;
+            }
+            .cal{
+                
+                height: 490px;
+                width:350px;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(252, 252, 255);
+                border-radius:10px;
+                margin-left: 450px;
+                margin-top:100px;
+                padding-top: 10px;
+                padding-left: 30px;
+            }
+            .long{
+                width:240px;
+            }
+            .btn{
+                color:darkblue;
+                background-color:aliceblue;
+                border:1px solid darkblue;
+            }
+            .btn:hover{
+                background-color: lightblue;
+                border:none;
+            }
+            h1{
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            
+            <div class = "cal">
+            <h1>Calculate your Grade</h1>
+            <label for="number">Enter the Telugu marks</label><br>
+            <input type="number" id="sub1" class="long" placeholder="enter the telugu marks"><br><br>
+            <label for="number">Enter the maths marks</label><br>
+            <input type="number" id="sub2" class="long" placeholder="enter the maths marks"><br><br>
+            <label for="number">Enter the physics marks</label><br>
+            <input type="number" id="sub3" class="long" placeholder="enter the physics marks"><br><br>
+            <label for="number">Enter the chemistry marks</label><br>
+            <input type="number" id="sub4" class="long" placeholder="enter the chemistry marks"><br><br>
+            <label for="number">Enter the social marks</label><br>
+            <input type="number" id="sub5" class="long" placeholder="enter the social marks"><br><br>
+            <button type="button" class="btn" onclick="calculateGrade()">Calculate</button>
+            <p id="result"></p>
+            <script src="gradecal.js"></script>
+        </div>
+        </form>
+        
+    </body>
+</html>
