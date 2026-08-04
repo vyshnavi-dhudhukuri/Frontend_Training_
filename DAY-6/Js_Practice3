@@ -1,0 +1,7 @@
+let num = 2;
+if(num % 84 == 0){
+    console.log("Factor of 84");
+}
+else{
+    console.log("not a factor of 84");
+}
