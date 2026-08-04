@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>My Portfolio</title>
+      <style>
+        .profile{
+            margin-left:550px;
+        }
+        img{
+            border-radius:50px;
+        }
+        .name{
+            font-family:Arial;
+            font-size:30px;
+            font-weight:bold;
+            margin-left:485px;
+            margin-bottom: 15px;
+        }
+        .about{
+            margin-left:300px;
+            font-size:25px;
+            font-weight:bold;
+        }
+        .description{
+            width:700px;
+            margin-left:300px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="profile"><img src="profile.png"></div>
+      <div class="name">Vyshnavi Dhudhukuri</div><hr>
+      <div class="about">About:</div><br><div class="description">Result-driven Front End Developer with 5+ years of experience building scalable, high-performance web applications. Expert in the React ecosystem and modern UI/UX principles. Proven track record of reducing page load times by 40% and collaborating with design teams to increase mobile traffic conversion rates by 25%."</div><hr>
+      <div class="body"></div>
+    </body>
+</html>
