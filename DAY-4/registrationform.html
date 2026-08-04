@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color:rgb(152, 203, 192);
+            font-family:Times New Roman;
+        }
+        h1{
+            color: rgba(13, 134, 64, 0.495);
+        }
+        .registration{
+            width:850px;
+            height:600px;
+            margin:20px auto;
+            background-color:#ffffff;
+            padding:30px;
+        }
+        .event{
+            text-align:center;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .online-registration{
+            width:700px;
+            height:40px;
+            background-color: rgb(158, 234, 199);
+            
+            margin:30px auto;
+            text-align:center;
+            font-size:25px;
+            line-height:40px;
+            border-radius:10px;
+        }
+        input{
+            width:250px;
+            height:35px;
+            font-size:16px;
+            margin-top:8px;
+            margin-bottom:20px;
+            border:2px solid gray;
+            border-radius:10px;
+        }
+        .long{
+            width:700px;
+        }
+        .dob{
+            width:160px;
+        }
+        button{
+            width:120px;
+            height:40px;
+            font-size:20px;
+            border:none;
+            background-color: lightcoral;
+        }
+        button:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<form>
+<div class="registration">
+    <div class="event">
+        <h1>YourEvent</h1>
+    </div>
+    <div class="online-registration">
+        Online Registration
+    </div>
+    <label>First Name</label>
+    <span style="margin-left:170px;"></span>
+    <label>Last Name</label><br>
+    <input type="text" placeholder="First Name">
+    <span style="margin-left:30px;"></span>
+    <input type="text" placeholder="Last Name"><br>
+    <label>Email Address</label><br>
+    <input type="email" class="long" placeholder="Email Address"><br>
+    <label>Institution</label><br>
+    <input type="text" class="long" placeholder="Institution Name"><br>
+    <label>Date of Birth</label><br>
+    <input type="number" class="dob" placeholder="Day">
+    <input type="number" class="dob" placeholder="Month">
+    <input type="number" class="dob" placeholder="Year"><br><br>
+    <button>Register</button>
+
+</div>
+
+</form>
+
+</body>
+</html>
