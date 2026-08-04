@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">MyStore</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <img src="samsungs25ultra.jpeg">
+        <h2>Samsung S25 Ultra</h2>
+        <p class="price">₹90,000</p>
+
+        <button onclick="addToCart('Samsung S25 Ultra',90000,'samsungs25ultra.jpeg')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="shoes.jpg">
+        <h2>Shoes</h2>
+        <p class="price">₹1,299</p>
+
+        <button onclick="addToCart('Shoes',1299,'shoes.jpg')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="headphones.jpeg">
+        <h2>Headphones</h2>
+        <p class="price">₹2,499</p>
+
+        <button onclick="addToCart('Headphones',2499,'headphones.jpeg')">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="smartwatch.jpeg">
+        <h2>Smart Watch</h2>
+        <p class="price">₹3,999</p>
+
+        <button onclick="addToCart('Smart Watch',3999,'smartwatch.jpeg')">
+            Add to Cart
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
