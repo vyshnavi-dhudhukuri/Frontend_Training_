@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background-color:white;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            width:400px;
+            background-color:#2d3559;
+            padding:15px;
+            border-radius:10px;
+        }
+
+        .result{
+            height:80px;
+            background-color:#181f33;
+            color:white;
+            font-size:35px;
+            font-weight:bold;
+            display:flex;
+            justify-content:flex-end;
+            align-items:center;
+            padding-right:20px;
+            border-radius:8px;
+            margin-bottom:20px;
+        }
+
+        .calculation{
+            background-color:#242b45;
+            padding:15px;
+            border-radius:8px;
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:15px;
+        }
+
+        .btn{
+            height:50px;
+            font-size:22px;
+            font-weight:bold;
+            background-color:#e8e3d9;
+            color:#333;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+        }
+
+        .del{
+            background-color:#647198;
+            color:white;
+        }
+
+        .reset{
+            grid-column:span 2;
+            height:50px;
+            background-color:#647198;
+            color:white;
+            border:none;
+            border-radius:8px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        .equals{
+            grid-column:span 2;
+            height:50px;
+            background-color:#d13f30;
+            color:white;
+            border:none;
+            border-radius:8px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="result" id="display"></div>
+
+    <div class="calculation">
+
+        <button class="btn" onclick="pressnumber(7)">7</button>
+        <button class="btn" onclick="pressnumber(8)">8</button>
+        <button class="btn" onclick="pressnumber(9)">9</button>
+        <button class="del" onclick="deletenumber()" >DEL</button>
+
+        <button class="btn" onclick="pressnumber(4)">4</button>
+        <button class="btn" onclick="pressnumber(5)">5</button>
+        <button class="btn" onclick="pressnumber(6)">6</button>
+        <button class="btn" onclick="pressoperator('+')">+</button>
+
+        <button class="btn" onclick="pressnumber(1)">1</button>
+        <button class="btn" onclick="pressnumber(2)">2</button>
+        <button class="btn" onclick="pressnumber(3 )">3</button>
+        <button class="btn" onclick="pressoperator('-')">-</button>
+
+        <button class="btn" onclick="pressnumber('.')">.</button>
+        <button class="btn" onclick="pressnumber(0)">0</button>
+        <button class="btn" onclick="pressoperator('/')">/</button>
+        <button class="btn" onclick="pressoperator('*')">*</button>
+
+        <button class="reset" onclick="resetcalculator()">RESET</button>
+        <button type="button" class="equals" onclick="calculateResult()">=</button>
+    </div>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
