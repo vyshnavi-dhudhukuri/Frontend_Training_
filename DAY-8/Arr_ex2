@@ -1,0 +1,10 @@
+let users = [
+    { name: "Vyshnavi", active: true },
+    { name: "gory", active: false },
+    { name: "rishika", active: true },
+    { name: "varshini", active: false }
+];
+let activeUsers = users.filter(user => user.active);
+console.log(activeUsers);
+//remove dulicate values
+//sum of array elements
